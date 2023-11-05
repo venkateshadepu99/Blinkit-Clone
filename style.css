@@ -34,9 +34,9 @@
     width: 90%;
     height: 100;
 }
-.slidebar
+.slidebar, .list
 {
-    
+    width: 83.5vw;
     white-space: nowrap;
     overflow-x:scroll;
     width: 82.5vw;
@@ -52,13 +52,45 @@
     width: 83.5vw;
     margin: auto;
 }
-.footer-links
+.list>img{
+    box-sizing: border-box;
+    padding-inline: 0.5em;
+}
+.my-card{
+    display: inline-block !important;
+    width: 220px;
+    box-sizing: border-box;
+    margin-inline: 10px;
+    margin-bottom: 50px;
+}
+.my-card-weight{
+    color:rgb(177,177,177);
+}
+.my-card>img{
+    display: inline-block ;
+    margin:auto;
+}
+#footer-links
 {
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
 #footer-links button
 {
+    width: 92px;
+    height: 35px;
+    color: white;
+    border: none;
+    font-size: 8px;
+    border-radius: 5px;
     background-color: rgb(33,60,76) !important;
+}
+#social-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer-r3
 {
@@ -80,5 +112,76 @@
     justify-content: center;
     align-items: center;
     font-size: 25px;
+    margin: 10px;
+}
+.footer-row1{
+    display:flex;
+}
+.footer-table1{
+    flex:2;
+}
+.footer-table2{
+    flex:3;
+}
+table{
+    width: 100%;
+}
+tr>td>a{
+    color:#898989;
+    text-decoration: none;
+}
+#footer-links
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#footer-links button
+{
+    width: 92px;
+    height: 35px;
+    color: white;
+    border: none;
+    font-size: 8px;
+    border-radius: 5px;
+    background-color: rgb(33,60,76) !important;
+}
+#social-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-r3
+{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    font-family: OKRA-REGULAR;
+    line-height: 18px;
+    margin: 12px;
+}
+.icon
+{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 10px;
 }
 
+.footer-r2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-r2 p
+{
+    font-size: small;
+}
